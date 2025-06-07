@@ -1,0 +1,84 @@
+{
+  "quizQuestions": {
+    "0": {
+      "question": "What is the main advantage of using renewable energy sources?",
+      "option1": "They are cheaper than fossil fuels",
+      "option2": "They are limited in supply",
+      "option3": "They are environmentally friendly",
+      "option4": "They produce more pollution",
+      "correctAnswer": "They are environmentally friendly"
+    },
+    "1": {
+      "question": "Which of the following is NOT a renewable energy source?",
+      "option1": "Solar energy",
+      "option2": "Wind energy",
+      "option3": "Natural gas",
+      "option4": "Hydroelectric power",
+      "correctAnswer": "Natural gas"
+    },
+    "2": {
+      "question": "What device is used to convert sunlight into electricity?",
+      "option1": "Wind turbine",
+      "option2": "Geothermal pump",
+      "option3": "Solar panel",
+      "option4": "Hydroelectric dam",
+      "correctAnswer": "Solar panel"
+    },
+    "3": {
+      "question": "Which country is known for generating a large percentage of its electricity from geothermal energy?",
+      "option1": "Iceland",
+      "option2": "Australia",
+      "option3": "China",
+      "option4": "Brazil",
+      "correctAnswer": "Iceland"
+    },
+    "4": {
+      "question": "What is the primary source of wind energy?",
+      "option1": "Earth's rotation",
+      "option2": "Sun’s heating of the Earth’s surface",
+      "option3": "Moon’s gravitational pull",
+      "option4": "Ocean currents",
+      "correctAnswer": "Sun’s heating of the Earth’s surface"
+    },
+    "5": {
+      "question": "What does the term \"carbon footprint\" refer to?",
+      "option1": "The amount of money spent on electricity",
+      "option2": "The total greenhouse gases emitted by a person or group",
+      "option3": "The number of trees cut down in a year",
+      "option4": "The area needed to produce renewable energy",
+      "correctAnswer": "The total greenhouse gases emitted by a person or group"
+    },
+    "6": {
+      "question": "Which of the following is a benefit of hydroelectric power?",
+      "option1": "It increases greenhouse gas emissions",
+      "option2": "It depletes fossil fuel resources",
+      "option3": "It provides clean, renewable electricity",
+      "option4": "It causes acid rain",
+      "correctAnswer": "It provides clean, renewable electricity"
+    },
+    "7": {
+      "question": "What is one common drawback of solar energy?",
+      "option1": "It is non-renewable",
+      "option2": "It only works in windy conditions",
+      "option3": "It depends on sunlight availability",
+      "option4": "It produces large amounts of waste",
+      "correctAnswer": "It depends on sunlight availability"
+    },
+    "8": {
+      "question": "Which sector consumes the most energy globally?",
+      "option1": "Residential",
+      "option2": "Agriculture",
+      "option3": "Industrial",
+      "option4": "Transportation",
+      "correctAnswer": "Industrial"
+    },
+    "9": {
+      "question": "What is the goal of using renewable energy sources?",
+      "option1": "To increase fossil fuel dependency",
+      "option2": "To reduce environmental impact and promote sustainability",
+      "option3": "To limit the growth of green technology",
+      "option4": "To stop energy production",
+      "correctAnswer": "To reduce environmental impact and promote sustainability"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Renergify</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_web_client_id">887608620091-nhi28aiknl0akjff6iit2pqu2knrcan9.apps.googleusercontent.com</string>
+
+</resources>

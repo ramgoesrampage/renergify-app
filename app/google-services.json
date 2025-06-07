@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "887608620091",
+    "firebase_url": "https://renergify-3eae4-default-rtdb.firebaseio.com",
+    "project_id": "renergify-3eae4",
+    "storage_bucket": "renergify-3eae4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887608620091:android:a29838401a203d2004d81e",
+        "android_client_info": {
+          "package_name": "com.example.renergify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9qGFu_iQMdyE66SorfgVpthfUN_QDVA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

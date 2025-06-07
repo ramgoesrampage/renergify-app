@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".ContributionFragment">
+
+    <ScrollView
+        android:id="@+id/quiz_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="@color/purple">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="80dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buy assets"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingBottom="16dp"
+                android:textColor="@color/black"/>
+
+            <!-- Asset Card -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:elevation="4dp"
+                android:layout_marginBottom="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginHorizontal="4dp"
+                android:background="@drawable/curved_background"
+                android:clipToOutline="true">
+
+                <ImageView
+                    android:id="@+id/assetImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/renewableenergy" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="12dp">
+
+                    <TextView
+                        android:id="@+id/assetTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/assetLocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                    android:textColor="#666666" />
+
+                    <TextView
+                        android:id="@+id/assetProduction"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" "
+                        android:paddingTop="4dp" />
+
+                    <TextView
+                        android:id="@+id/assetSaved"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Loading price..."
+                        android:paddingTop="2dp" />
+
+                    <TextView
+                        android:id="@+id/assetDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                    android:textColor="#999999"
+                    android:paddingTop="2dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="16dp"
+                    android:weightSum="2">
+
+                    <Button
+                        android:id="@+id/aboutButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="About"
+                        android:textColor="#000000" />
+
+                    <Button
+                        android:id="@+id/buyButton1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Buy"
+                        android:layout_marginStart="12dp"
+                        android:backgroundTint="#800080"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
